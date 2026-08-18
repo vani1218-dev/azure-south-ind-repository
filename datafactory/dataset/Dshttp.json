@@ -1,0 +1,22 @@
+{
+	"name": "Dshttp",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpToRaw",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "vani1218-dev/azure-south-ind-repository/refs/heads/main/products.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
