@@ -1,0 +1,15 @@
+{
+	"name": "azureprjfactory",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ad28cd9a-30e2-4329-9a0d-45bb5302e281",
+		"tenantId": "b08491b3-8f71-42ec-b510-25c36da3b834"
+	}
+}
