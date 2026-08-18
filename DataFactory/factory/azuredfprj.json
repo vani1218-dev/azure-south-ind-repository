@@ -1,0 +1,15 @@
+{
+	"name": "azuredfprj",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d8700490-2020-457f-b4ad-5cc0eb006dde",
+		"tenantId": "b08491b3-8f71-42ec-b510-25c36da3b834"
+	}
+}
